@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Thunder';
+  src: url('./THUNDER/THUNDER/Fonts/Web-PS/Thunder-SemiBoldLC.woff2') format('woff2'),
+       url('./THUNDER/THUNDER/Fonts/Web-PS/Thunder-SemiBoldLC.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-thunder: "Thunder", sans-serif;
+}
+
+/* Custom scrollbar in black color */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a; /* zinc-800 */
+  border-radius: 6px;
+  border: 2px solid #000000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46; /* zinc-700 */
+}
+
+/* For Firefox */
+html {
+  scrollbar-color: #27272a #000000;
+  scrollbar-width: thin;
+}
+

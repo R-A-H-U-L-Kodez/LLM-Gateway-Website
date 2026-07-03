@@ -1,0 +1,6 @@
+{
+  "name": "Shader Background Showcase",
+  "description": "An elegant visualization of a WebGL plasma shader background with high-contrast, beautiful typography, interactive controls, and interactive showcase presets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
